@@ -3,6 +3,7 @@
 body, html {
     font-size: 100%;
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(241, 231, 219);
 }
 
 body, html {
@@ -41,6 +42,7 @@ nav div:first-child h1 {
 
 nav div:first-child img {
     filter: contrast(0);
+    height: 60px;
 }
 
 nav div:first-child h1, nav ul {
@@ -103,3 +105,63 @@ nav div:first-child h1, nav ul {
         width: 50%;
     }
 }
+
+/* Form element */
+ 
+.form-center {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#email {
+    width: 20%;
+    height: 20px;
+    margin-bottom: 1rem;
+    border: solid #000000;
+    padding: 5px 10px;
+}
+
+#submit {
+    height: 30px;
+    width: 70px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+    #email {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px){
+    #email {
+    width: 20%;
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, auto);
+    margin-left: 5%;
+    margin-right: 20%;
+    grid-gap: 20px;
+}
+
+.box1, .box3, .box5 {
+    display: grid;
+    justify-content: end;
+}
+
+.box2, .box4, .box6 {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    font-size: 1.5vw;
+    align-items: center;
+    }
+
+.boxa, .boxc, .boxe {
+    font-weight: bold;
+}
+
+
