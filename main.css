@@ -164,4 +164,10 @@ nav div:first-child h1, nav ul {
     font-weight: bold;
 }
 
+/* Embedded video */
+#video {
+    text-align: center;
+    margin: .8rem;
+    padding: 1rem;
+}
 
