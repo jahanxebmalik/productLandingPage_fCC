@@ -165,9 +165,55 @@ nav div:first-child h1, nav ul {
 }
 
 /* Embedded video */
-#video {
+#video, #price{
     text-align: center;
     margin: .8rem;
     padding: 1rem;
+}
+
+/* Pricing section */
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5rem 1rem;
+    margin: 0.8rem 20%;    
+    }
+
+.pbox1, .pbox2, .pbox3{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    border: solid #000000;
+}
+
+p{
+    text-align: center;
+}
+
+.pbox1a, .pbox2a, .pbox3a{
+    background-color: gray;
+    color: white;
+}
+
+.pbox1b, .pbox2b, .pbox3b{
+    line-height: 2;
+}
+
+.container2 ul {
+    list-style: none;
+}
+
+#shop {
+    padding: .5rem;
+    margin: 1rem;
+}
+
+#footer {
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    color: white;
+    background-color: #222;
+    padding-top: 5px;
+    padding-bottom: 5px;    
 }
 
