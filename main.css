@@ -323,7 +323,7 @@ div.boxe {
   justify-content: center;
   
   iframe {
-    max-width: 560px;
+    max-width:560px;
     width: 100%;
   }
 }
